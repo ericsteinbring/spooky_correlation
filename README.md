@@ -1,2 +1,15 @@
 # spooky_correlation
-This is a model of comprehensively tallying possible pairwise correlations of two sources such that they could be exploited to mimic a violation of a Bell test.
+This is a model of comprehensively tallying possible pairwise correlations of two sources such that they could be exploited to mimic a violation of a Bell test.  It repeats the calculations, as a check, which reproduce the closed-form versions intended for the original journal paper. Various flavours of those calculations can be tried, to verify they are correct as they appear in the paper: Steinbring, Galaxies (2026).
+
+Eric Steinbring, 2 January 2020; revised 21 September 2026
+
+To run the code you need IDL and the astrolib libraries.  Download the PRO file, run IDL, and compile it to run. The value of M (and R, if forcing a particular "residual" correlation) can be entered into the paramter-table, as the preable of the code. The default is M=0.87. Then, on the command line, type:
+
+IDL>.compile spooky_correlation
+IDL>spooky_correlation
+
+And hit "enter."  It will generate the simulated distribution of flux-difference probabilities for given residual values M and R, and the plots of those as they appear in the paper.
+
+You are free to use and modify this code as you wish.  If you do so, please cite:
+
+Steinbring, E., "Detectability of Spooky Quasar-Flux Correlation on the Sky", Galaxies, 2026
