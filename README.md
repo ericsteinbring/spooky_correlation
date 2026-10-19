@@ -3,7 +3,7 @@ This is a model of comprehensively tallying possible pairwise correlations of tw
 
 Eric Steinbring, 2 January 2020; revised 21 September 2026
 
-To run the code you need IDL and the astrolib libraries.  Download the PRO file, run IDL, and compile it to run. The value of M (and R, if forcing a particular "residual" correlation) can be entered into the parameter-table, which is in the preamble of the code. The defaults are M=0.87 and R=0.67, for the holographic quantum-foam inspired result. Then, on the command line, type:
+To run the code you need IDL and the astrolib libraries.  Download the PRO file and start IDL. The value of M (and R, if forcing a particular "residual" correlation) can be entered into the parameter-table, which is in the preamble of the code. The defaults are M=0.87 and R=0.67, for the holographic quantum-foam inspired result. Then, on the command line, type:
 
 IDL>.compile spooky_correlation
 
